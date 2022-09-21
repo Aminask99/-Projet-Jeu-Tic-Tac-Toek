@@ -1,0 +1,12 @@
+.joux{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(167, 7, 7);
+    border-right: 8px solid rgb(242, 241, 241);
+    border-bottom: 8px solid rgb(245, 237, 237);
+    /* border-style: outset; */
+  font-size: 110px; 
+  color: antiquewhite;
+  
+  /* text-align: center; */
+}
