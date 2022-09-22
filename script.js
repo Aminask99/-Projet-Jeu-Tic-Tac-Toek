@@ -6,6 +6,15 @@
 let buttons = document.getElementById("buttons");
 let divent = document.getElementById("WinnMES");
 let diven = document.getElementById("WinnME");
+let music = document.getElementById("music");
+function PlayMusic(){
+    music.play();
+
+}
+function Stop(){
+    music.pause();
+}
+
 let turn = true;
 
  arrayX=[];
