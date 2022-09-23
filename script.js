@@ -1,7 +1,8 @@
 
 
-// localStorage.setItem("Xo","joux")
-// console.log(localStorage.getItem("Xo"));
+
+
+
 
 let buttons = document.getElementById("buttons");
 let divent = document.getElementById("WinnMES");

@@ -1,0 +1,118 @@
+
+body{
+    background-image: url(Image/gift.png);
+}
+.Contnr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(138, 52, 52,.7);
+}
+.Cardd{
+    background-color:  rgba(18, 17, 17, 0.8);
+    /* width: 300px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+
+    margin: 0;
+    padding: 0;
+
+  
+    }
+    section{
+        width:100% ;
+        height:900px;
+       
+        background:url(Image/gift.png) ;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+
+
+    }
+    .Overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:rgba(138, 52, 52,.7);
+    }
+    .card{
+        transform: translateY(300Px);
+        position: absolute;
+        top:0;
+        width:500px ;
+        height: 300px;
+        background-color:  rgba(18, 17, 17, 0.8);
+        
+       
+        
+       
+    }
+    .flexx{
+      
+        display: flex;
+        justify-content: center;
+       
+
+    }
+    .inputs{
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+       
+    }
+    input{
+        width: 200px;
+        height: 29px;
+        
+    }
+    .buttonn{
+        width: 300px;
+      
+      
+    }
+     */
