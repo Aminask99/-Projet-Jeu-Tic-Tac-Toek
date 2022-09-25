@@ -1,12 +1,13 @@
 body{
-background-image: url(Image/boci.jpg);
+background-image: url(Image/pikatshp.jpg);
 }
 .joux{
     width: 200px;
     height: 200px;
-    background-color: rgb(233, 166, 72);
-    border-right: 8px solid rgb(242, 241, 241);
-    border-bottom: 8px solid rgb(245, 237, 237);
+    background-color:  rgba(18, 17, 17, 0.3);
+    border-right: 8px solid rgb(41, 26, 26);
+    border-bottom: 8px solid rgb(41, 26, 26);
+    /* border: none; */
     /* border-style: outset; */
   font-size: 110px; 
   color: antiquewhite;
@@ -14,7 +15,7 @@ background-image: url(Image/boci.jpg);
   /* text-align: center; */
 }
 .joux:hover{
-    background-color: rgb(205, 142, 18);
+    background-color: rgb(181, 96, 96);
     cursor:pointer;
 }
 .Xo{
@@ -109,7 +110,7 @@ background-image: url(Image/boci.jpg);
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    background-color: rgb(233, 166, 72);
+    background-color:rgba(138, 52, 52,.7);
     border: none;
     margin-left: 10px;
     font-size: 50px;
@@ -120,7 +121,7 @@ background-image: url(Image/boci.jpg);
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    background-color: rgb(233, 166, 72);
+    background-color: rgba(138, 52, 52,.7);
     border: none;
     margin-left: 70px;
     font-size: 50px;
@@ -136,7 +137,9 @@ background-image: url(Image/boci.jpg);
     margin-left: 200px;
   }
   .econs{
-    width: 55px;
+    width: 40px;
+    padding-bottom: 12px;
+   
   }
   .titls{
     font-size: 50px;
@@ -151,18 +154,16 @@ background-image: url(Image/boci.jpg);
   }
   
   
-/* .WinnME{
-    position: fixed;
+  .cantner{
+    position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(29, 29, 29, 0.9);
-    display: flex;
-    justify-content: center;
-    display:none; 
-} */
-/* .titl{
-    padding-top: 400px;
-    font-size: 50px;
-} */
+    width: 100%;
+    height: 100%;
+    background:rgba(138, 52, 52,.7);
+}
+.textt{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: 900;
+  
+}

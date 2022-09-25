@@ -14,72 +14,78 @@
 
 <body>
 
-    <!-- <button  class="amina">hero</button> -->
-    <div>
-        <audio src=""></audio>
-    </div>
-    <button class="button1 text-white" onclick="PlayMusic()" id="play"> <img class="econs" src="Image/play-solid.svg"
-            alt=""></button>
-    <button class="button2 text-white" onclick="Stop()" id="Stop"> <img class="econs" src="image/stop-solid.svg"
-            alt=""></button>
 
-    <audio id="music" src="audio/mix.mp3"></audio>
 
-    <div class="information">
-        <form class="inputs " action="">
+    <div class="cantner">
 
-           
-            <input type="text"  placeholder="Persson1">
-           
-            <input type="text" placeholder="Persson2">
-        </form>
-    </div>
 
-    <div id="buttons">
-        <div class="d-flex justify-content-center text-center ">
-            <div id="1" class="d-flex justify-content-center joux  "></div>
-            <div id="2" class="d-flex justify-content-center joux"></div>
-            <div id="3" class="d-flex justify-content-center joux"></div>
+        <button class="button1 text-white" onclick="PlayMusic()" id="play"> <img class="econs"
+                src="Image/play-solid.svg" alt=""></button>
+        <button class="button2 text-white" onclick="Stop()" id="Stop"> <img class="econs" src="image/econsPouse.svg"
+                alt=""></button>
+        <audio id="lose" src="audio/lose.mp3"></audio>
+        <audio id="win" src="audio/YHBGM3F-small-win.mp3"></audio>
+        <audio id="sunGame" src="audio/audioGame.wav"></audio>
+
+        <audio id="music" src="audio/mix.mp3"></audio>
+
+
+        <div id="output">
+
         </div>
-        <div class="d-flex justify-content-center">
-            <div id="4" class="d-flex justify-content-center joux"></div>
-            <div id="5" class="d-flex justify-content-center joux"></div>
-            <div id="6" class="d-flex justify-content-center joux"></div>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div id="7" class="d-flex justify-content-center joux"></div>
-            <div id="8" class="d-flex justify-content-center joux"></div>
-            <div id="9" class="d-flex justify-content-center joux "></div>
-        </div>
-    </div>
+        <div class="d-flex justify-content-center fs-1 textt " id="name">
 
-    <!-- <div class="Xo text-center text-white" id="divGame">
+        </div>
+
+
+        <div id="buttons">
+            <div class="d-flex justify-content-center text-center ">
+                <div id="1" class="d-flex justify-content-center joux  "></div>
+                <div id="2" class="d-flex justify-content-center joux"></div>
+                <div id="3" class="d-flex justify-content-center joux"></div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div id="4" class="d-flex justify-content-center joux"></div>
+                <div id="5" class="d-flex justify-content-center joux"></div>
+                <div id="6" class="d-flex justify-content-center joux"></div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div id="7" class="d-flex justify-content-center joux"></div>
+                <div id="8" class="d-flex justify-content-center joux"></div>
+                <div id="9" class="d-flex justify-content-center joux "></div>
+            </div>
+        </div>
+
+        <!-- <div class="Xo text-center text-white" id="divGame">
         X O game
     </div> -->
-    <div class="Winning-mesage" id="WinnME">
-        <div class="text-white title"> X Wins! </div>
-        <button onclick="close_()" id="CloseBtn" class="btnnn">Start</button>
-        <!-- <button id="restartbutto">Restart</button> -->
+        <div class="Winning-mesage" id="WinnME">
+            <div class="text-white title"> X Wins! </div>
+            <button onclick="close_()" id="CloseBtn" class="btnnn">Start</button>
+            <!-- <button id="restartbutto">Restart</button> -->
+
+        </div>
+
+        <div class="Winning" id="WinnMES">
+            <div class="text-white title"> O Wins! </div>
+            <button onclick="closeO()" id="CloseBt" class="btnnn">Start</button>
+            <!-- <button id="restartbutto">Restart</button> -->
+
+        </div>
+
+        <div class="Winnin" id="WinnM">
+            <div class="text-white title"> Opss ! </div>
+            <button onclick="closeOPS()" id="CloseBt" class="btnnn">Start</button>
+            <!-- <button id="restartbutto">Restart</button> -->
+
+        </div>
+
 
     </div>
 
-    <div class="Winning" id="WinnMES">
-        <div class="text-white title"> O Wins! </div>
-        <button onclick="closeO()" id="CloseBt" class="btnnn">Start</button>
-        <!-- <button id="restartbutto">Restart</button> -->
-
-    </div>
-
-    <div class="Winnin" id="WinnM">
-        <div class="text-white title"> Opss ! </div>
-        <button onclick="closeOPS()" id="CloseBt" class="btnnn">Start</button>
-        <!-- <button id="restartbutto">Restart</button> -->
-
-    </div>
-
-
-    <!-- <button onclick="myclik()">clic</button> -->
+        <!-- <button onclick="myclik()">clic</button> -->
 </body>
 <script src="script.js"></script>
+<!-- <script src="Screptvalidation.js"></script> -->
 
 </html>
