@@ -6,7 +6,7 @@ const formEnter = e =>{
             localStorage.setItem("Player2",user2);
 
             if( !user1 =="" && !user2 == ""){
-                window.open('xO.html');
+                window.open('index.html');
 
             }
 
