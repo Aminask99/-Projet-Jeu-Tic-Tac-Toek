@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Document</title>
+</head>
+
+<body style="background-image: url('Image/pikatshp.jpg');">
+
+    <div class="cantner">
+
+        <button class="button1 text-white" onclick="PlayMusic()" id="play"> <img class="econs"
+                src="Image/play-solid.svg" alt=""></button>
+        <button class="button2 text-white" onclick="Stop()" id="Stop"> <img class="econs" src="image/econsPouse.svg"
+                alt=""></button>
+        <audio id="lose" src="audio/lose.mp3"></audio>
+        <audio id="win" src="audio/YHBGM3F-small-win.mp3"></audio>
+        <audio id="sunGame" src="audio/audioGame.wav"></audio>
+        <audio id="music" src="audio/mix.mp3"></audio>
+
+        <div id="output">
+
+        </div>
+
+        <div class="d-flex justify-content-center fs-1 textt " id="name">
+
+        </div>
+
+        <div id="buttons">
+            <div class="d-flex justify-content-center text-center ">
+                <div id="1" class="d-flex justify-content-center joux  "></div>
+                <div id="2" class="d-flex justify-content-center joux"></div>
+                <div id="3" class="d-flex justify-content-center joux"></div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div id="4" class="d-flex justify-content-center joux"></div>
+                <div id="5" class="d-flex justify-content-center joux"></div>
+                <div id="6" class="d-flex justify-content-center joux"></div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div id="7" class="d-flex justify-content-center joux"></div>
+                <div id="8" class="d-flex justify-content-center joux"></div>
+                <div id="9" class="d-flex justify-content-center joux "></div>
+            </div>
+        </div>
+
+        <div class="Winning-mesage" id="WinnME">
+            <div class="text-white title"> X Wins! </div>
+            <button onclick="close_()" id="CloseBtn" class="btnnn">Start</button>
+        </div>
+
+        <div class="Winning" id="WinnMES">
+            <div class="text-white title"> O Wins! </div>
+            <button onclick="closeO()" id="CloseBt" class="btnnn">Start</button>
+        </div>
+
+        <div class="Winnin" id="WinnM">
+            <div class="text-white title"> Opss ! </div>
+            <button onclick="closeOPS()" id="CloseBt" class="btnnn">Start</button>
+        </div>
+    </div>
+
+</body>
+<script src="Js/script.js"></script>
+
+</html>

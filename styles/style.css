@@ -1,20 +1,17 @@
-body{
-background-image: url(Image/pikatshp.jpg);
-}
+
 .joux{
+
     width: 200px;
     height: 200px;
     background-color:  rgba(18, 17, 17, 0.3);
     border-right: 8px solid rgb(41, 26, 26);
     border-bottom: 8px solid rgb(41, 26, 26);
-    /* border: none; */
-    /* border-style: outset; */
-  font-size: 110px; 
-  color: antiquewhite;
+    font-size: 110px; 
+    color: antiquewhite;
   
-  /* text-align: center; */
 }
 .joux:hover{
+
     background-color: rgb(181, 96, 96);
     cursor:pointer;
 }
@@ -23,7 +20,6 @@ background-image: url(Image/pikatshp.jpg);
     background-color: rgb(167, 7, 7);
     margin: auto;
     width: 50%;
-    /* border: 3px solid green; */
     padding: 10px;
 }
 .Winning-mesage{
@@ -53,6 +49,7 @@ background-image: url(Image/pikatshp.jpg);
    
 }
 .Winnin{
+
     position: fixed;
     top: 0;
     left: 0;
@@ -65,22 +62,24 @@ background-image: url(Image/pikatshp.jpg);
    
 }
 .title{
+
     padding-top: 400px;
     font-size: 50px;
     display: flex;
     justify-content: center;
 }
 .Title{
+
     color: blue;
 }
 .Titles{
+
     color: blue;
-    /* margin-left: 20px; */
-    /* font-size: ; */
+   
 }
 
-
 .btnnn{
+
     width: 100px;
     height: 30px;
     position:absolute;
@@ -91,22 +90,29 @@ background-image: url(Image/pikatshp.jpg);
     outline:none;
     border:none;
   }
+
   .inputs{
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     width: 200px;
     gap: 70px; 
+
   }
+
   .information{
+
     padding-top: 40px;
     display: flex;
     justify-content: center;
+
   }
+
   #buttons{
     padding-top: 100px;
   }
+
   .button1{
+
     border-radius: 50%;
     width: 90px;
     height: 90px;
@@ -114,10 +120,10 @@ background-image: url(Image/pikatshp.jpg);
     border: none;
     margin-left: 10px;
     font-size: 50px;
-
   }
-  
+
   .button2{
+
     border-radius: 50%;
     width: 90px;
     height: 90px;
@@ -126,35 +132,35 @@ background-image: url(Image/pikatshp.jpg);
     margin-left: 70px;
     font-size: 50px;
    }
-  
+
   .Image{
+
     width: 80px;
     padding-top: 30px;
   }
+
   .Image_{
+
     width: 80px;
     padding-top: 30px;
     margin-left: 200px;
   }
+
   .econs{
+
     width: 40px;
     padding-bottom: 12px;
    
   }
-  .titls{
-    font-size: 50px;
-  background: -webkit-linear-gradient(#eee, rgb(199, 6, 6));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  }
+
   .paragraph{
     font-size: 80px;
     color: rgb(8, 8, 8);
-    
+   
   }
-  
-  
+
   .cantner{
+
     position: absolute;
     top: 0;
     left: 0;
@@ -162,7 +168,9 @@ background-image: url(Image/pikatshp.jpg);
     height: 100%;
     background:rgba(138, 52, 52,.7);
 }
+
 .textt{
+  
   font-family: Comic Sans MS, Comic Sans, cursive;
   font-weight: 900;
   

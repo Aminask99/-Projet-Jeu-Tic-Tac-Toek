@@ -1,17 +1,17 @@
-const formEnter = e =>{
+const formEnter = e =>
+{
+
     let user1 =document.getElementById("Player1").value;
     let user2 =document.getElementById("Player2").value;
-    e.preventDefault();
-            localStorage.setItem("Player1",user1);
-            localStorage.setItem("Player2",user2);
+       e.preventDefault();
 
-            if( !user1 =="" && !user2 == ""){
-                window.open('index.html');
+                localStorage.setItem("Player1",user1);
+                localStorage.setItem("Player2",user2);
 
-            }
+                    if( !user1 =="" && !user2 == ""){
+                        window.open('Xo.html');
 
-    
-
+                    }
 }
 
 
